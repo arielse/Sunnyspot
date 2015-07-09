@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+}
+
+
+article {
+	height: 560px;
+}
+
+.cabin {
+	width: 440px;
+	border: 1px solid #a7a7a7;
+	background-color: white;
+	box-sizing: content-box;
+	border-radius: 3px;
+	color: #222;
+	margin-left: 12px;
+	margin-right: 12px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 15px;
+
+}
+
+.cabin-image {
+  width: 440px;
+  height: 350px;
+  background-color: #a7a7a7;
+  background-size: cover;
+}
+
+.cabinfo {
+	 position: relative;
+	 top: -60px;
+}
+
+
+.cabinfo p {
+	margin: 0;
+}
+
+.cabinfo p, .cabinfo ul {
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+.cabinfo li {
+  float: left;
+  width: 50%;
+  }
+
+.nameinfo {
+	background-color: #e08f26;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	border-bottom: 1px solid #a7a7a7;
+	margin-bottom: 20px;
+}
+
+.nameinfo h3{
+	margin: 0;
+	font-size: 150%;
+}
+.nameinfo p {
+	font-weight: bold;
+}
+
+main {
+	background-color: #dde1e2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 2390px;
+
+}

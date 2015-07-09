@@ -1,0 +1,138 @@
+main {
+	background-color: #dde1e2;
+	padding-top: 6px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px;
+	min-height: 700px;
+
+}
+
+table {
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: arial, sans-serif;
+}
+
+table tr {
+	line-height: 20px;
+
+}
+
+table th, td, tr {
+	padding-right: 10px;
+	border: 2px solid #2980b9;
+}
+
+th, td, tr {
+	padding: 5px;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+
+
+input, textarea {
+	display: block;
+	margin-bottom: 15px;
+	width: 186px;
+	border: 1px solid #b7b7b7;
+	color: black;
+
+}
+
+label {
+	float: left;
+	width: 150px;
+	margin-bottom: 5px;
+	color: black;
+}
+
+fieldset {
+	width: 600px;
+	background-color: white;
+	color: black;
+	border: 1px solid #b7b7b7;
+	margin-top: 35px;
+}
+
+#update {
+	margin-left: 50px;
+}
+
+#submit {
+	margin-left: 150px;
+	margin-top: 10px;
+	width: 186px;
+	line-height: 30px;
+	background: linear-gradient(to top, #3f93ca, #2980b9);
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	border: none;
+}
+
+#btnLogout {
+	max-width: 69px;
+}
+
+.btnHome, #login {
+	margin-left: 40px;
+	margin-top: 15px;
+	color: white;
+	background: linear-gradient(to top, #3f93ca, #2980b9);
+	border: none;
+	padding: 10px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.btnHome:hover {
+	background: #333;
+	color: white;
+}
+
+span {
+	visibility: hidden;
+	color: red;
+}
+
+.contact {
+	background-color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: unset;
+	padding-left: 0;
+	
+}
+
+#contactForm {
+	margin-bottom: 30px;
+	
+}
+
+
+#contactForm label {
+	width: 100px;
+}
+
+#contactForm textarea {
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+

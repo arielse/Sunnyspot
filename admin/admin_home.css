@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	background-color: #2980b9;	
+}
+
+section h2 {
+	font-family: Ariel, sans-serif;
+	color: #2980b9;
+  	margin-top: 0;
+  	padding-top: 15px;
+
+}
+
+nav {
+	border-bottom: 2px solid #dde1e2;
+}
+
+section {
+	/*border-bottom: 1px solid #86c8f3;
+	box-shadow: 0 1px 1px #86c8f3;*/
+	background-color: white;
+}
+
+section p {
+	margin: 0;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	color: #222;
+}
+article {
+	height: 510px;
+}
+
+.cabin {
+	width: 300px;
+	border: 1px solid #a7a7a7;
+	background-color: white;
+	box-sizing: content-box;
+	border-radius: 3px;
+	color: #222;
+	
+	margin-right: 12px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 15px;
+
+}
+
+
+.cabin-image {
+  height: 300px;
+  background-color: #a7a7a7;
+  background-size: cover;
+}
+
+.cabinfo {
+	 position: relative;
+	 top: -60px;
+}
+
+
+.cabinfo p {
+	margin: 0;
+}
+
+.cabinfo p, .cabinfo ul {
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+.cabinfo li {
+  float: left;
+  width: 50%;
+  }
+
+.nameinfo {
+	background: linear-gradient(to bottom, #2572a5, #2980b9);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	border-bottom: 1px solid #a7a7a7;
+	margin-bottom: 20px;
+}
+
+.nameinfo h3{
+	margin: 0;
+	font-size: 150%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.nameinfo p {
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+main {
+	background-color: #dde1e2;
+	padding-top: 6px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px;
+
+}
